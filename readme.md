@@ -1,47 +1,47 @@
 ![TP Tools](./assets/tp-tools.png)
 
-**Please inform us of any oddities with the texts. We are not native english speakers** 
+**Por favor, infórmenos de cualquier problema con los textos. No somos hablantes nativos del inglés** 
 
-**Until mid of august 2023 the tools are more "alpha" than "beta".There will be lot of updates, since of missing features** 
+**Hasta mediados de agosto de 2023, las herramientas son más "alfa" que "beta". Habrá muchas actualizaciones, de las características que faltan** 
 
 ---
 
 # TP-Tools (beta)
 
-**FREE for commercial use**
+**GRATIS para uso comercial**
 
-A small collection of tools that simplify the commissioning and programming of Fanuc robots.
+Una pequeña colección de herramientas que simplifican la puesta en marcha y la programación de robots Fanuc.
 
-The programs are licensed under the
+Los programas están sujetos a la licencia
 
 *CC BY-ND 4.0 Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)*
 
 
 https://creativecommons.org/licenses/by-nd/4.0/
 
-- The distribution is allowed.
-- Modification of the binary file is not allowed.
-- The naming of the author is given, because the binary file contains information
+- Se permite la distribución.
+- No se permite la modificación del archivo binario.
+- Se da el nombre del autor, porque el archivo binario contiene información
 
-Even if the Creative Commons license was not made for software, it serves its purpose for us here.
+Aunque la licencia Creative Commons no se creó para el software, en este caso nos sirve para nuestro propósito.
 
-A license file does NOT have to be copied to the robot controller.
+NO es necesario copiar un archivo de licencia en el controlador del robot.
 
-**Thereby nothing stands in the way of commercial use.**
+**De este modo, nada se opone a su uso comercial.**
 
 ---
-### Controller and Version
+### Controlador y versión
 
 - R-30iA (< V7.50)
 - R-30iB (< V8.10)
 - R-30iBPlus (< V9.10)
 - R-30iBPlus/CRX (< V9.40/42)
 
-If there is no corresponding subfolder, the version is (currently) not available.
+Si no existe la subcarpeta correspondiente, la versión (actualmente) no está disponible.
 
-If the *Arg-Wizard* can be used or there is a CRX plug-in this is described or explained.
+Si se puede utilizar el *Arg-Wizard* o existe un plug-in CRX se describe o explica.
 
-## Program structure
+## Estructura del programa
 Currently the programs "TP_VIEW" and "TP_WRITE" use a "uniform" API.
 
 - Simple commands are called or executed with a string containing the command name.
